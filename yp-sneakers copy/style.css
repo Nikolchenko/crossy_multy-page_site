@@ -103,6 +103,10 @@ nav {
 
 h1 {
     font-size: 48px;
+<<<<<<< Updated upstream
+=======
+    font-family: "Anonymous Pro", sans-serif;
+>>>>>>> Stashed changes
 }
 
 /* стили для контейнера кроссовок */
@@ -201,10 +205,83 @@ footer .nav-link {
 
 /* страницы с подробной информацие о кросовке */
 
+<<<<<<< Updated upstream
+=======
+.content-info {
+    width: 100%;
+
+    margin: 32px 0 48px;
+    padding: 24px;
+
+    background-color: white;
+    border-radius: 50px;
+}
+>>>>>>> Stashed changes
 
 
 
 
+<<<<<<< Updated upstream
+=======
+title {
+    height: 48px;
+    font-family: "Anonymous Pro";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.subtitle {
+    padding: 24px 0;
+}
+
+.information__text {
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+.main__text {
+    display: block;
+    box-sizing: border-box;
+    max-width: 506px;
+}
+
+.text {
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+
+.text:last-child {
+    margin-bottom: 0;
+}
+
+.short__info {
+    margin-left: 32px;
+    width: 100%;
+    max-width: 506px;
+}
+
+.short__info__title {
+    color: var(--black, #121723);
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.short__info__lements {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    border-bottom: 1px solid #121723;
+}
+
+.short__info__lements>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+>>>>>>> Stashed changes
 
 
 
@@ -261,4 +338,23 @@ footer .nav-link {
     .content-info {
         width: 295px;
 
+<<<<<<< Updated upstream
 }
+=======
+
+        border-radius: 12px;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .information__text {
+        flex-direction: column;
+    }
+
+    .short__info {
+        margin: 32px 0 0;
+    }
+}
+>>>>>>> Stashed changes
